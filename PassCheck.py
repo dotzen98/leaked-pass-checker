@@ -26,7 +26,7 @@ def main(args):
   for password in args:
     count = pwned_api_check(password)
     if count:
-      print(f'{password} er set {count} gange... Du burde nok skifte din kode!')
+      print(f'{password} er set {count} gange... Du burde skifte din kode!')
     else:
       print(f'{password} er ikke set før.')
   return 'done!'
